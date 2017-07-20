@@ -5,13 +5,11 @@ https://majianyang666.github.io/git-demo3/pro32-1-lol-index/index.html
 1. topbar 顶栏
 2. banner 广告栏
 3. tabs 主页面目录
-4. promo 轮播组件
-5. side-nav 右侧边导航
-6. news-nav 主新闻页面
-7. hero-nav 英雄等信息介绍导航
+4. art 轮播组件
+5. download 右侧边导航
+6. news 主新闻页面
+7. hero 英雄等信息介绍导航
 8. recommend 推荐信息导航
 9. footbar 尾栏
 
-## v1.1
-1. 修复了顶栏副导航icon的问题
-2. 修复了主页面宽度不对，不适应的问题
+
