@@ -1,10 +1,10 @@
 # 简单模拟腾讯LOL官网首页 v1.1
 ## 预览链接
-https://greygao.github.io/hello-world/Prc32-1-LOL_Index/Prc32-1.html
+https://majianyang666.github.io/git-demo3/pro32-1-lol-index/index.html
 ## 主要构成
 1. topbar 顶栏
 2. banner 广告栏
-3. menu 主页面目录
+3. tabs 主页面目录
 4. promo 轮播组件
 5. side-nav 右侧边导航
 6. news-nav 主新闻页面
