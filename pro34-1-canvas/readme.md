@@ -3,7 +3,7 @@
 
 
 ## 预览链接：
-https://greygao.github.io/hello-world/Prc34-1-canvas/Prc34-1.html
+ https://majianyang666.github.io/git-demo3/Prc34-1-canvas/Prc34-1.html
 
 ## 主要功能
 1. 画笔
