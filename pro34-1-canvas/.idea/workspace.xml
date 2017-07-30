@@ -21,10 +21,10 @@
       <file leaf-file-name="prc34-1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prc34-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="97" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="140" column="19" lean-forward="true" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
               <folding>
-                <marker date="1501416508106" expanded="true" signature="261:355" ph="..." />
+                <marker date="1501418594920" expanded="true" signature="262:356" ph="..." />
               </folding>
             </state>
           </provider>
@@ -54,10 +54,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="117" />
-    <option name="y" value="126" />
+    <option name="x" value="25" />
+    <option name="y" value="106" />
     <option name="width" value="1293" />
-    <option name="height" value="581" />
+    <option name="height" value="589" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -111,14 +111,15 @@
       <workItem from="1501400167857" duration="8142000" />
       <workItem from="1501408956681" duration="6550000" />
       <workItem from="1501416957928" duration="54000" />
+      <workItem from="1501418567023" duration="630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19847000" />
+    <option name="totallyTimeSpent" value="20477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="126" width="1293" height="581" extended-state="0" />
+    <frame x="25" y="106" width="1293" height="589" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1860817" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -155,7 +156,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501416508106" expanded="true" signature="261:355" ph="..." />
+            <marker date="1501418594920" expanded="true" signature="262:356" ph="..." />
           </folding>
         </state>
       </provider>
@@ -165,7 +166,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501416508106" expanded="true" signature="261:355" ph="..." />
+            <marker date="1501418594920" expanded="true" signature="262:356" ph="..." />
           </folding>
         </state>
       </provider>
@@ -175,17 +176,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501416508106" expanded="true" signature="261:355" ph="..." />
+            <marker date="1501418594920" expanded="true" signature="262:356" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prc34-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="97" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501416508106" expanded="true" signature="261:355" ph="..." />
+            <marker date="1501418594920" expanded="true" signature="262:356" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prc34-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="140" column="19" lean-forward="true" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
+          <folding>
+            <marker date="1501418594920" expanded="true" signature="262:356" ph="..." />
           </folding>
         </state>
       </provider>
