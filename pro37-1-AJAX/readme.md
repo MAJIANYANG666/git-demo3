@@ -1,13 +1,13 @@
-#AJAX表单提交之用户登录页面
+# AJAX表单提交之用户登录页面
 
-##前置准备
+## 前置准备
 将index.js用node index.js监听
 
 ## 预览链接
 
 https://greygao.github.io/hello-world/Prc37-1-Ajax/index.html
 
-##主要功能
+## 主要功能
 
 #### POST请求
 
