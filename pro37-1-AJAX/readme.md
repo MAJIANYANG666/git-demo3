@@ -5,7 +5,7 @@
 
 ## 预览链接
 
-https://greygao.github.io/hello-world/Prc37-1-Ajax/index.html
+https://majianyang666.github.io/git-demo3/pro37-1-AJAX/index.html
 
 ## 主要功能
 
