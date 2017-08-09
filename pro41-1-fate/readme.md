@@ -8,3 +8,4 @@ https://majianyang666.github.io/git-demo3/pro41-1-fate/index.html
 1. 使用媒体查询
 2. Flex 布局
 3. 自动加载（ajax应用）
+4. 懒加载和预加载
