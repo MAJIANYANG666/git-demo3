@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  我是qq
+<script>
+let request=new XMLHttpRequest()
+request.open('GET','/qq_private.json')
+request.onload=function(){
+    console.log(request.responseText)
+}
+request.send()
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="http://qq.com/style.css">
+</head>
+<body>
+<h5>我是frank
+</h5>
+<script>
+//      用ajax请求style.css
+//let request=new XMLHttpRequest()
+//request.open('GET','http://qq.com/style.css')
+//request.onreadystatechange=function(){
+//    if(request.readyState===4){
+//        console.log(request.responseText)
+//    }
+//}
+//request.send()
+
+//    用变量做jsonp
+//    window['frankUser']={}
+//    var script = document.createElement('script')
+//    script.src = 'http://qq.com/xxx.js?name=frankUser'
+//    script.onload = function () {
+//        console.log('加载xxx.js成功')
+//        console.log(window.frankUser)
+//    }
+//    document.head.appendChild(script)
+
+//    用函数做jsonp
+//function xxx(data){
+//    console.log('我得到的数据是')
+//    console.log(data)
+//}
+//var script = document.createElement('script')
+//script.src = 'http://qq.com/xxx.js?callback=xxx'
+//document.head.appendChild(script)
+
+
+//    用函数做jsonp并封装
+jsonp('http://qq.com/xxx.js',function(data){
+    console.log('第一次')
+    console.log(data)
+})
+jsonp('http://qq.com/xxx.js',function(data){
+    console.log('第二次')
+    console.log(data)
+})
+
+function jsonp(url,fn){
+    var functionName='Frank'+parseInt(Math.random()*100000,10)
+    window[functionName]=fn
+
+    var script = document.createElement('script')
+    script.src = url+'?callback='+functionName
+    document.head.appendChild(script)
+
+}
+//jQuery 用法：
+//$.ajax({
+//    url:'http://qq.com/xxx.js',
+//    dataType: 'jsonp',
+//    success: function(data) {
+//        console.log('第一次')
+//        console.log(data)
+//    }
+//})
+
+</script>
+</body>
+</html>
