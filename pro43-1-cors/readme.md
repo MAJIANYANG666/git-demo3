@@ -23,6 +23,6 @@
     
 ## 如何实现跨域
 
-访问"http://127.0.0.1 frank.com/frank.html" ，发送Ajax请求"http://qq.com/qq_private.json" 的数据；
+1. 访问"http://127.0.0.1 frank.com/frank.html" ，发送Ajax请求"http://qq.com/qq_private.json" 的数据；
 
-即可实现"http://127.0.0.1 frank.com/frank.html" 对"http://qq.com" 的跨域请求。
+2. 即可实现"http://127.0.0.1 frank.com/frank.html" 对"http://qq.com" 的跨域请求。
