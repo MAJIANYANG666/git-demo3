@@ -8,10 +8,10 @@
   我是qq
 <script>
 let request=new XMLHttpRequest()
-request.open('GET','/qq_private.json')
 request.onload=function(){
     console.log(request.responseText)
 }
+request.open('GET','/qq_private.json')
 request.send()
 </script>
 </body>

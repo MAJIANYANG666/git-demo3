@@ -32,6 +32,15 @@ var server = http.createServer(function(request, response){
               var string = fs.readFileSync('./style.css', 'utf8')
           response.setHeader('Content-Type', 'text/css')
           response.end(string)
+        }else if(path === '/xxx.js'){
+          var callback=query.callback
+          var string = fs.readFileSync('./xxx.js', 'utf8')
+          response.setHeader('Content-Type', 'text/css')
+          setTimeout(function(){
+             response.end(string.replace('{{callback}}',callback))
+          },Math.random()*1000)
+
+
         }else if(path === '/qq_private.json'){
             var string = fs.readFileSync('./qq_private.json', 'utf8')
             response.setHeader('Content-Type', 'application/json')
