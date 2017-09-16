@@ -23,6 +23,6 @@
     
 ## 如何实现跨域
 
-1. 访问"http://127.0.0.1 frank.com/frank.html" ，就会发送Ajax请求"http://qq.com/xxx.js" 的数据；
+1. 访问"http://127.0.0.1 frank.com/frank.html" ，就会发送GET请求"http://qq.com/xxx.js" 的数据；
 
 2. 通过script的脚本设置即可实现"http://127.0.0.1 frank.com/frank.html" 对"http://qq.com" 的跨域请求。
