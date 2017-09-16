@@ -18,7 +18,7 @@
 <script>
     let myButton = document.querySelector('#myButton')
     myButton.onclick = function(){
-        ajax({method: 'GET', url: './x'}).then(SuccessFn1, commonErrorFn)
+        ajax({method: 'GET', url: '/x'}).then(SuccessFn1, commonErrorFn)
     }
     let myButton2 = document.querySelector('#myButton2')
     myButton2.onclick = function(){
