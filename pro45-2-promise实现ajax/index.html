@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .output{
+            border: 1px solid black;
+            min-height: 100px;
+        }
+    </style>
+</head>
+<body>
+<button id=myButton>AJAX to x</button>
+<button id=myButton2>AJAX to y</button>
+<div class="output" id="x"></div>
+<div class="output" id="y"></div>
+<script>
+    let myButton = document.querySelector('#myButton')
+    myButton.onclick = function(){
+        ajax({method: 'GET', url: './x'}).then(SuccessFn1, commonErrorFn)
+    }
+    let myButton2 = document.querySelector('#myButton2')
+    myButton2.onclick = function(){
+        ajax({method: 'GET',url:'/y'}).then(SuccessFn2,commonErrorFn)
+    }
+    function SuccessFn1(responseText){
+        document.querySelector('#x').innerText = responseText }
+    function SuccessFn2(responseText){
+        document.querySelector('#y').innerText = responseText }
+    function commonErrorFn(xhr){
+        alert('请求失败，状态码为' + xhr.status)
+    }
+
+    function ajax(options){
+        return new Promise(function(resolve, reject){ // 1通知成功 通知失败（通知then)
+            let {method, url} = options
+            if(!method){ throw new Error('你神经病，怎么不传 method') }
+            url = url || location.href
+            let xhr = new XMLHttpRequest()
+            xhr.open(method, url)
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState === 4){
+                    if(xhr.status>=200 && xhr.status < 400){
+                        resolve.call(null, xhr.responseText) // 2通知成功·
+                    }else if(xhr.status >= 400){
+                        reject.call(null, xhr) // 3通知失败
+                    }
+                }
+            }
+            xhr.send()
+        })
+    }
+
+</script>
+</body>
+</html>
