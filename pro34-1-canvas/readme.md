@@ -3,6 +3,7 @@
 
 
 ## 预览链接：
+请用移动端模式预览，不然无法画画。
  https://majianyang666.github.io/git-demo3/pro34-1-canvas/prc34-1.html
 
 ## 主要功能
